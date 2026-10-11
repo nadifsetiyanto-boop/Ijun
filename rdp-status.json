@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdpfree-1",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -66,11 +66,12 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "ip": "100.68.187.115",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "status": "ok",
-      "hostname": "rdpfree-1",
-      "magicdns": "rdpfree-1.tail0f9d9e.ts.net."
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -104,5 +105,6 @@
       "status": "disabled"
     }
   },
-  "heartbeat_at": "2026-10-11T16:59:08.8139868Z"
+  "heartbeat_at": "2026-10-11T16:59:08.8139868Z",
+  "stopped_at": "2026-10-11T17:03:59Z"
 }
